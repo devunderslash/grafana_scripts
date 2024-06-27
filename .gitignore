@@ -1,0 +1,6 @@
+.env
+/venv/
+/grafana-alert-backup-json/
+/grafana-alert-backup-hcl/
+/grafana-dash-backup/
+/grafana-datasource-backup*/
