@@ -28,6 +28,13 @@ To deactivate the virtual environment, run the following command:
 deactivate
 ```
 
+## Configure
+To configure the exporters, you will need to create a `.env` file in the root of the repository. The `.env` file should contain the following variables:
+```bash
+GRAFANA_URL=https://grafana.example.com
+GRAFANA_API_KEY=<api key created in grafana>
+```
+
 ## Grafana Dashboard Exporter
 The Grafana Dashboard Exporter is a script that exports all dashboards from a Grafana instance. The script will export the dashboards as json files to a specified directory.
 
